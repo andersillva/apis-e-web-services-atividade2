@@ -1,2 +1,3 @@
 # apis-e-web-services-atividade2
-Ferramenta utilizada: Postman (https://www.postman.com/downloads).
+Arquivo da coleção: atividade2.postman_collection.json
+Ferramenta: Postman - https://www.postman.com/downloads
