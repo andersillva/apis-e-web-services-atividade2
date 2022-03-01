@@ -1,0 +1,264 @@
+{
+	"info": {
+		"_postman_id": "a721876b-638e-4a84-8bbe-2eba12098d17",
+		"name": "atividade2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NASA - Mars Rover Photos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-1-1&api_key=DEMO_KEY",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "earth_date",
+							"value": "2022-1-1"
+						},
+						{
+							"key": "api_key",
+							"value": "DEMO_KEY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NASA - Astronomy Picture of the Day",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "DEMO_KEY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NASA - Techport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/techport/api/projects/17792?api_key=DEMO_KEY",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"techport",
+						"api",
+						"projects",
+						"17792"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "DEMO_KEY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IBGE - Ranking de nomes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicodados.ibge.gov.br/api/v2/censos/nomes/ranking",
+					"protocol": "https",
+					"host": [
+						"servicodados",
+						"ibge",
+						"gov",
+						"br"
+					],
+					"path": [
+						"api",
+						"v2",
+						"censos",
+						"nomes",
+						"ranking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IBGE - Municípios por UF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/43/municipios",
+					"protocol": "https",
+					"host": [
+						"servicodados",
+						"ibge",
+						"gov",
+						"br"
+					],
+					"path": [
+						"api",
+						"v1",
+						"localidades",
+						"estados",
+						"43",
+						"municipios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IBGE - Malha Geográfica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicodados.ibge.gov.br/api/v3/malhas/estados/43",
+					"protocol": "http",
+					"host": [
+						"servicodados",
+						"ibge",
+						"gov",
+						"br"
+					],
+					"path": [
+						"api",
+						"v3",
+						"malhas",
+						"estados",
+						"43"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IBGE - Produtos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicodados.ibge.gov.br/api/v1/produtos/estatisticas",
+					"protocol": "https",
+					"host": [
+						"servicodados",
+						"ibge",
+						"gov",
+						"br"
+					],
+					"path": [
+						"api",
+						"v1",
+						"produtos",
+						"estatisticas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SpaceX - Lançamentos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SpaceX - Missões",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/missions",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"missions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SpaceX - Missão",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/missions/FE3533D",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"missions",
+						"FE3533D"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
